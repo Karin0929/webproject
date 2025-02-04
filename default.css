@@ -1,0 +1,309 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #7a7a7a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-img {
+    width: 200px;
+}
+
+ul.navlist {
+    list-style: none;
+}
+
+ul.navlist li {
+    display: inline-flex;
+    padding: 0 10px;
+}
+
+.leftbnr {
+    position: relative;
+    border-bottom: 5px solid #d81f26;
+}
+
+.alterbrd {
+    padding: 0 20px 0 110px;
+}
+
+.rightbnrbx {
+    padding: 110px 0 0 0;
+}
+
+.alterbrd h2 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #d81f26;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.alterbrd h3 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #333;
+}
+
+.alterbrd button {
+    border-radius: 0;
+}
+
+.right-img {
+    background-color: #d9d9d9;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 500px;
+}
+
+.slide-img1 {
+    background-image: url("https://assets-global.website-files.com/628f5036c767084c2482d459/64abec08b73b030ee205c879_Radenta-Technologies-Inc-New-Branding-2023-2.png");
+}
+
+.slide-img2 {
+    background-image: url("https://assets-global.website-files.com/628f5036c767084c2482d459/64abecb4a71971a4fe95df93_Radenta-Technologies-Inc-Device-Leasing-Program.png");
+}
+
+.slide-img3 {
+    background-image: url("https://assets-global.website-files.com/628f5036c767084c2482d459/64abec6cf9c0b7d4d585a6d0_Radenta-Technologies-Inc-YouTube-Channel.png");
+}
+
+.ful-width,
+.prtbx img {
+    width: 100%;
+}
+
+.rightpic-brdr {
+    border-left: 5px solid #d81f26;
+    border-top: 5px solid #d81f26;
+    border-right: 5px solid #d81f26;
+    border-bottom: none;
+}
+
+.redbrdr {
+    border-color: #d81f26 !important;
+}
+
+.bar-h > li {
+    position: relative;
+}
+
+.bar-h > li > a:hover {
+    color: #d81f26;
+}
+
+.bar-h > li > a::after {
+    content: "";
+    max-width: 0;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d81f26;
+    display: block;
+    transition: .2s linear;
+}
+
+.bar-h > li > a:hover::after {
+    max-width: 100%;
+}
+
+.redm i,
+.txthdrs span,
+.cutbx ul li i,
+.lyerbx ul li i {
+    color: #d81f26;
+}
+
+.redm span,
+.txthdrs {
+    color: #333;
+}
+
+.redm .form-select:focus {
+    box-shadow: none;
+    border-color: #dee2e6;
+}
+
+.txthdrs {
+    text-align: center;
+}
+
+.redm label,
+.redm .form-select {
+    background-color: unset !important;
+    border-radius: unset;
+}
+
+.redm label {
+    border-right: unset;
+    padding: 15px;
+}
+
+.redm .form-select {
+    border-left: unset;
+}
+
+.redm .input-group,
+.redm button {
+    box-shadow: -3px 4px 6px #e6e6e6;
+}
+
+.redm button {
+    padding: 10px;
+}
+
+.contbx h1 {
+    font-size: 28px;
+}
+
+.contbx img {
+    height: 160px;
+    margin: 0 auto;
+    display: block;
+}
+
+.contbx p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: center;
+}
+
+.cutbx {
+    min-height: 360px;
+    border-left: 2px dashed #e0dfdf;
+    padding: 20px 25px;
+}
+
+.cutbx:nth-child(3n+0) {
+    border-right: 2px dashed #e0dfdf;
+}
+
+.hdrbg {
+    background-color: #eee;
+    padding: 5px 10px;
+}
+
+.hdrbg a {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+.hdrbg a:hover {
+    color: #d81f26;
+}
+
+.lyerbx {
+    border-top: 1px solid #c4c4c4;
+}
+
+.lyerbx img {
+    height: 75px;
+    border-radius: 50px;
+    background-color: #fff;
+    border-top: 2px solid #c4c4c4;
+    margin: -27px auto;
+    display: block;
+    padding: 12px;
+}
+
+.lyerbx h2 {
+    font-size: 23px;
+    padding-top: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container>div {
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    width: 15rem;
+    height: 8rem;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    /* box-shadow: -3px 4px 6px #e6e6e6; */
+    border: 2px dashed #e6e6e6;
+    margin: 0 auto;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.ftbgbx img {
+    width: 200px;
+}
+
+.socialbx {
+    justify-content: end;
+}
+
+ul.socialbx li {
+    padding: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    justify-content: end;
+}
+
+.ftbgbx {
+    background-color: #424043;
+}
+
+.ftnv ul li {
+    padding: 8px 0;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .bnr-bx>div:last-child {
+        display: none;
+    }
+
+    .alterbrd {
+        padding: 20px;
+    }
+
+    .alterbrd h2,
+    .alterbrd h3 {
+        font-size: 3rem;
+    }
+
+    .socialbx,
+    .fil-btns {
+        justify-content: center;
+    }
+
+    .ftbgbx img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .ftnv {
+        padding: 20px 0;
+    }
+
+    .ftnv ul li {
+        text-align: center;
+    }
+
+    .leftbnr {
+        min-height: 500px;
+    }
+}
